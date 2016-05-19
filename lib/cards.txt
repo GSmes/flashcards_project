@@ -1,0 +1,6 @@
+What is 5 + 5?,10
+What is Rachel's favorite animal?,red panda
+What is Mike's middle name?,nobody knows
+What cardboard cutout lives at Turing?,Justin bieber
+What is the distance from Earth (in light years) to the nearest galaxy, Andromeda?,2.537 million light years
+How much more black could this be?,none more black
