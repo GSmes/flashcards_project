@@ -1,3 +1,5 @@
+require '../lib/flashcards'
+
 class Guess
   attr_reader :response, :card
 
@@ -11,7 +13,7 @@ class Guess
   # end
   #
   def correct?
-    @response == card.answer
+    true if @response == card.answer
   end
 
   def feedback

@@ -1,9 +1,7 @@
 require 'minitest/autorun'
 require 'minitest/pride'
 require '../lib/flashcards'
-# require '../lib/guess'
 require '../lib/deck'
-# require '../lib/round'
 
 class CardTest < Minitest::Test
 
@@ -16,37 +14,7 @@ class CardTest < Minitest::Test
     card = Card.new("What is the capital of Alaska?", "Juneau")
     assert_equal "Juneau", card.answer
   end
-  #
-  # def test_guess_exists
-  #   card = Card.new("What is the capital of Alaska?", "Juneau")
-  #   guess = Guess.new("Juneau", card)
-  #   assert_instance_of Guess, guess
-  # end
-  #
-  # def test_guess_has_card
-  #   card = Card.new("What is the capital of Alaska?", "Juneau")
-  #   guess = Guess.new("Juneau", card)
-  #   assert_instance_of Card, guess.card
-  # end
-  #
-  # def test_guess_contains_response
-  #   card = Card.new("What is the capital of Alaska?", "Juneau")
-  #   guess = Guess.new("Juneau", card)
-  #   assert_equal "Juneau", guess.response
-  # end
-  #
-  # def test_guess_response_correct
-  #   card = Card.new("What is the capital of Alaska?", "Juneau")
-  #   guess = Guess.new("Juneau", card)
-  #   assert_equal true, guess.correct?
-  # end
-  #
-  # def test_guess_gives_feedback
-  #   card = Card.new("Which planet is closest to the sun?", "Mercury")
-  #   guess = Guess.new("Saturn", card)
-  #   assert_equal "Incorrect.", guess.feedback
-  # end
-  #
+  # 
   # def test_round_begins_with_zero_guesses
   #   card_1 = Card.new("What is the capital of Alaska?", "Juneau")
   #   card_2 = Card.new("Approximately how many miles are in one astronomical unit?", "93,000,000")
