@@ -1,3 +1,5 @@
+require '../lib/flashcards'
+
 class Deck
   attr_reader :cards
 
